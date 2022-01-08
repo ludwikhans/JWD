@@ -1,9 +1,7 @@
 public class MarsApplication {
     public static void main(String[] args) {
-        MarsRobot spirit = new MarsRobot();
-        spirit.status = "eksploracja";
-        spirit.speed = 2;
-        spirit.temperature = -60;
+        MarsRobot spirit = new MarsRobot("eksploracja",2, (-60));
+
 
         System.out.println("Robot spirit");
         spirit.showAttributes();
@@ -29,12 +27,9 @@ public class MarsApplication {
         System.out.println();
 
 
-        MarsRobot opportunity = new MarsRobot();
+        MarsRobot opportunity = new MarsRobot("Misja specjalna", 5 , 0);
         opportunity.status = "Misja specjalna";
-        opportunity.speed = 5;
-        opportunity.temperature = -20;
-        System.out.println("Robot Opportunity");
-        opportunity.showAttributes();
+               opportunity.showAttributes();
 
 
     }
