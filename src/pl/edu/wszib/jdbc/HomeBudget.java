@@ -1,6 +1,6 @@
 package pl.edu.wszib.jdbc;
 
-import com.microsoft.sqlserver.jdbc.SQLServerDataSource;
+
 
 import java.math.BigDecimal;
 import java.sql.*;
@@ -8,7 +8,7 @@ import java.text.NumberFormat;
 
 public class HomeBudget {
 
-    private  static final String DB_HOST = "morfeusz.wszib.edu.pl";
+   /* private  static final String DB_HOST = "morfeusz.wszib.edu.pl";
     private  static final String DB_USER = "gtruty";
     private  static final String DB_PASS = "Grzeg0rzTruty!";
     private  static final String DB_NAME = "gtruty";
@@ -68,5 +68,5 @@ public class HomeBudget {
     public static String currencyFormat(BigDecimal n){
         return NumberFormat.getCurrencyInstance().format(n);
     }
-
+*/
 }

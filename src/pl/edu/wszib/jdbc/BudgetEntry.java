@@ -3,7 +3,7 @@ package pl.edu.wszib.jdbc;
 import java.math.BigDecimal;
 
 public class BudgetEntry {
-    private BigDecimal emount;
+/*    private BigDecimal emount;
     private String entryName;
 
     public BigDecimal getEmount() {
@@ -20,5 +20,5 @@ public class BudgetEntry {
 
     public void setEntryName(String entryName) {
         this.entryName = entryName;
-    }
+    }*/
 }

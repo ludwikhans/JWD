@@ -1,6 +1,6 @@
 package pl.edu.wszib.jdbc;
 
-import com.microsoft.sqlserver.jdbc.SQLServerDataSource;
+
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -8,7 +8,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class ConnectDataSource {
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
 
         SQLServerDataSource ds = new SQLServerDataSource();
         ds.setUser("gtruty");
@@ -34,5 +34,5 @@ public class ConnectDataSource {
         }catch (SQLException e){
             e.printStackTrace();
         }
-    }
+    }*/
 }
